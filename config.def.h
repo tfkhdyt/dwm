@@ -22,10 +22,10 @@ static const int user_bh            = 33;        /* 0 means that dwm will calcul
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true:style=Bold" };
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true";
 static const char col_gray1[]       = "#1e1e2e";
-static const char col_gray2[]       = "#fab387";
+static const char col_gray2[]       = "#b77508";
 static const char col_gray3[]       = "#cdd6f4";
-static const char col_gray4[]       = "#1e1e2e";
-static const char col_cyan[]        = "#89b4fa";
+static const char col_gray4[]       = "#eff1f5";
+static const char col_cyan[]        = "#084ab7";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
