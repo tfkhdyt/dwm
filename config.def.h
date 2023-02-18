@@ -17,7 +17,7 @@ static const int smartgaps          = 1;        /* 1 means no outer gap when the
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int user_bh            = 33;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
-#define ICONSIZE (bh - 15)   /* icon size */
+#define ICONSIZE (bh - 12)   /* icon size */
 #define ICONSPACING 5 /* space between icon and title */
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true:style=Bold" };
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true";
