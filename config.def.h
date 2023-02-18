@@ -19,7 +19,13 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const int user_bh            = 33;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 #define ICONSIZE (bh - 12)   /* icon size */
 #define ICONSPACING 5 /* space between icon and title */
-static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true:style=Bold" };
+static const char *fonts[]          = { 
+  "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true:style=Bold",
+  "Noto Color Emoji:size=12:antialias=true:autohint=true",
+  "Noto Serif CJK JP:size=12:antialias=true:autohint=true:style=Bold",
+  "Noto Serif CJK KR:size=12:antialias=true:autohint=true:style=Bold",
+  "Noto Serif CJK SC:size=12:antialias=true:autohint=true:style=Bold",
+};
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true";
 static const char col_gray1[]       = "#1e1e2e";
 static const char col_gray2[]       = "#b77508";
