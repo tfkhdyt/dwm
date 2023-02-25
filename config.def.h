@@ -50,7 +50,7 @@ static const int showtab                 = showtab_auto;        /* Default tab b
 static const int toptab                  = False;               /* False means bottom tab bar */
 #endif // TAB_PATCH
 #if BAR_HEIGHT_PATCH
-static const int bar_height              = 35;   /* 0 means derive from font, >= 1 explicit height */
+static const int bar_height              = 28;   /* 0 means derive from font, >= 1 explicit height */
 #endif // BAR_HEIGHT_PATCH
 #if BAR_PADDING_PATCH
 static const int vertpad                 = 10;  /* vertical padding of bar */
@@ -157,11 +157,11 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 static const char font[]                 = "monospace 10";
 #else
 static const char *fonts[]               = { 
-  "JetBrainsMono Nerd Font:size=11.5:antialias=true:autohint=true:style=Bold",
-  "Noto Color Emoji:size=11.5:antialias=true:autohint=true",
-  "Noto Serif CJK JP:size=11.5:antialias=true:autohint=true:style=Bold",
-  "Noto Serif CJK KR:size=11.5:antialias=true:autohint=true:style=Bold",
-  "Noto Serif CJK SC:size=11.5:antialias=true:autohint=true:style=Bold",
+  "JetBrainsMono Nerd Font:size=13:antialias=true:autohint=true",
+  "Noto Color Emoji:size=13:antialias=true:autohint=true",
+  "Noto Serif CJK JP:size=13:antialias=true:autohint=true",
+  "Noto Serif CJK KR:size=13:antialias=true:autohint=true",
+  "Noto Serif CJK SC:size=13:antialias=true:autohint=true",
 };
 #endif // BAR_PANGO_PATCH
 static const char dmenufont[]            = "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true";
