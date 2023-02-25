@@ -108,7 +108,7 @@
 /* This patch turns the titlebar area into a mfact-respecting tabbar showing each client's title.
  * https://dwm.suckless.org/patches/bartabgroups/
  */
-#define BAR_TABGROUPS_PATCH 0
+#define BAR_TABGROUPS_PATCH 1
 
 /* This patch adds an option to place tags in rows like in many other window managers.
  * https://dwm.suckless.org/patches/taggrid/
@@ -360,7 +360,7 @@
 /* This patch adds vertical and horizontal space between the statusbar and the edge of the screen.
  * https://dwm.suckless.org/patches/barpadding/
  */
-#define BAR_PADDING_PATCH 0
+#define BAR_PADDING_PATCH 1
 
 /* Same as barpadding patch but specifically tailored for the vanitygaps patch in that the outer
  * bar padding is derived from the vanitygaps settings. In addition to this the bar padding is
