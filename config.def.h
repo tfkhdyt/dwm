@@ -157,36 +157,36 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 static const char font[]                 = "monospace 10";
 #else
 static const char *fonts[]               = { 
-  "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true:style=Bold",
-  "Noto Color Emoji:size=12:antialias=true:autohint=true",
-  "Noto Serif CJK JP:size=12:antialias=true:autohint=true:style=Bold",
-  "Noto Serif CJK KR:size=12:antialias=true:autohint=true:style=Bold",
-  "Noto Serif CJK SC:size=12:antialias=true:autohint=true:style=Bold",
+  "JetBrainsMono Nerd Font:size=11.5:antialias=true:autohint=true:style=Bold",
+  "Noto Color Emoji:size=11.5:antialias=true:autohint=true",
+  "Noto Serif CJK JP:size=11.5:antialias=true:autohint=true:style=Bold",
+  "Noto Serif CJK KR:size=11.5:antialias=true:autohint=true:style=Bold",
+  "Noto Serif CJK SC:size=11.5:antialias=true:autohint=true:style=Bold",
 };
 #endif // BAR_PANGO_PATCH
 static const char dmenufont[]            = "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true";
 
 static char c000000[]                    = "#000000"; // placeholder value
 
-static char normfgcolor[]                = "#bbbbbb";
-static char normbgcolor[]                = "#222222";
-static char normbordercolor[]            = "#444444";
-static char normfloatcolor[]             = "#db8fd9";
+static char normfgcolor[]                = "#cdd6f4";
+static char normbgcolor[]                = "#1e1e2e";
+static char normbordercolor[]            = "#b77508";
+static char normfloatcolor[]             = "#b77508";
 
-static char selfgcolor[]                 = "#eeeeee";
-static char selbgcolor[]                 = "#005577";
-static char selbordercolor[]             = "#005577";
-static char selfloatcolor[]              = "#005577";
+static char selfgcolor[]                 = "#eff1f5";
+static char selbgcolor[]                 = "#084ab7";
+static char selbordercolor[]             = "#084ab7";
+static char selfloatcolor[]              = "#084ab7";
 
-static char titlenormfgcolor[]           = "#bbbbbb";
-static char titlenormbgcolor[]           = "#222222";
-static char titlenormbordercolor[]       = "#444444";
-static char titlenormfloatcolor[]        = "#db8fd9";
+static char titlenormfgcolor[]           = "#cdd6f4";
+static char titlenormbgcolor[]           = "#1e1e2e";
+static char titlenormbordercolor[]       = "#b77508";
+static char titlenormfloatcolor[]        = "#b77508";
 
-static char titleselfgcolor[]            = "#eeeeee";
-static char titleselbgcolor[]            = "#005577";
-static char titleselbordercolor[]        = "#005577";
-static char titleselfloatcolor[]         = "#005577";
+static char titleselfgcolor[]            = "#eff1f5";
+static char titleselbgcolor[]            = "#084ab7";
+static char titleselbordercolor[]        = "#084ab7";
+static char titleselfloatcolor[]         = "#084ab7";
 
 static char tagsnormfgcolor[]            = "#bbbbbb";
 static char tagsnormbgcolor[]            = "#222222";
@@ -194,11 +194,11 @@ static char tagsnormbordercolor[]        = "#444444";
 static char tagsnormfloatcolor[]         = "#db8fd9";
 
 static char tagsselfgcolor[]             = "#eeeeee";
-static char tagsselbgcolor[]             = "#005577";
-static char tagsselbordercolor[]         = "#005577";
-static char tagsselfloatcolor[]          = "#005577";
+static char tagsselbgcolor[]             = "#084ab7";
+static char tagsselbordercolor[]         = "#084ab7";
+static char tagsselfloatcolor[]          = "#084ab7";
 
-static char hidnormfgcolor[]             = "#005577";
+static char hidnormfgcolor[]             = "#084ab7";
 static char hidselfgcolor[]              = "#227799";
 static char hidnormbgcolor[]             = "#222222";
 static char hidselbgcolor[]              = "#222222";
