@@ -170,35 +170,35 @@ static char c000000[]                    = "#000000"; // placeholder value
 
 static char normfgcolor[]                = "#cdd6f4";
 static char normbgcolor[]                = "#1e1e2e";
-static char normbordercolor[]            = "#b77508";
-static char normfloatcolor[]             = "#b77508";
+static char normbordercolor[]            = "#94e2d5";
+static char normfloatcolor[]             = "#94e2d5";
 
 static char selfgcolor[]                 = "#eff1f5";
-static char selbgcolor[]                 = "#084ab7";
-static char selbordercolor[]             = "#084ab7";
-static char selfloatcolor[]              = "#084ab7";
+static char selbgcolor[]                 = "#f38ba8";
+static char selbordercolor[]             = "#f38ba8";
+static char selfloatcolor[]              = "#f38ba8";
 
 static char titlenormfgcolor[]           = "#cdd6f4";
 static char titlenormbgcolor[]           = "#1e1e2e";
-static char titlenormbordercolor[]       = "#b77508";
-static char titlenormfloatcolor[]        = "#b77508";
+static char titlenormbordercolor[]       = "#94e2d5";
+static char titlenormfloatcolor[]        = "#94e2d5";
 
-static char titleselfgcolor[]            = "#eff1f5";
-static char titleselbgcolor[]            = "#084ab7";
-static char titleselbordercolor[]        = "#084ab7";
-static char titleselfloatcolor[]         = "#084ab7";
+static char titleselfgcolor[]            = "#1e1e1e";
+static char titleselbgcolor[]            = "#f38ba8";
+static char titleselbordercolor[]        = "#f38ba8";
+static char titleselfloatcolor[]         = "#f38ba8";
 
 static char tagsnormfgcolor[]            = "#cdd6f4";
 static char tagsnormbgcolor[]            = "#1e1e2e";
-static char tagsnormbordercolor[]        = "#b77508";
-static char tagsnormfloatcolor[]         = "#b77508";
+static char tagsnormbordercolor[]        = "#94e2d5";
+static char tagsnormfloatcolor[]         = "#94e2d5";
 
-static char tagsselfgcolor[]             = "#eff1f5";
-static char tagsselbgcolor[]             = "#084ab7";
-static char tagsselbordercolor[]         = "#084ab7";
-static char tagsselfloatcolor[]          = "#084ab7";
+static char tagsselfgcolor[]             = "#1e1e1e";
+static char tagsselbgcolor[]             = "#f38ba8";
+static char tagsselbordercolor[]         = "#f38ba8";
+static char tagsselfloatcolor[]          = "#f38ba8";
 
-static char hidnormfgcolor[]             = "#084ab7";
+static char hidnormfgcolor[]             = "#f38ba8";
 static char hidselfgcolor[]              = "#227799";
 static char hidnormbgcolor[]             = "#222222";
 static char hidselbgcolor[]              = "#222222";
