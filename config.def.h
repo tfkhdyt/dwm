@@ -159,9 +159,9 @@ static const char font[]                 = "monospace 10";
 static const char *fonts[]               = { 
   "JetBrainsMono Nerd Font:size=13:antialias=true:autohint=true",
   "Noto Color Emoji:size=13:antialias=true:autohint=true",
-  "Noto Serif CJK JP:size=13:antialias=true:autohint=true",
-  "Noto Serif CJK KR:size=13:antialias=true:autohint=true",
-  "Noto Serif CJK SC:size=13:antialias=true:autohint=true",
+  "Noto Sans CJK JP:size=13:antialias=true:autohint=true",
+  "Noto Sans CJK KR:size=13:antialias=true:autohint=true",
+  "Noto Sans CJK SC:size=13:antialias=true:autohint=true",
 };
 #endif // BAR_PANGO_PATCH
 static const char dmenufont[]            = "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true";
