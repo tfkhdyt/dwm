@@ -367,7 +367,7 @@
  * toggled in unison when vanitygaps are toggled. Increasing or decreasing gaps during runtime
  * will not affect the bar padding.
  */
-#define BAR_PADDING_VANITYGAPS_PATCH 1
+#define BAR_PADDING_VANITYGAPS_PATCH 0
 
 /* This patch adds simple markup for status messages using pango markup.
  * This depends on the pango library v1.44 or greater.
@@ -1309,7 +1309,7 @@
  * Most gaps patches tries to avoid gaps on the monocle layout, as it is often used as a
  * fullscreen mode, hence this is enabled separately from the main vanitygaps patch.
  */
-#define VANITYGAPS_MONOCLE_PATCH 1
+#define VANITYGAPS_MONOCLE_PATCH 0
 
 /* By default MOD+Tab will take the user back to the previous tag only. If the user keeps
  * using MOD+Tab then the view will switch back and forth between the current and previous tag.
