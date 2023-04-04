@@ -157,14 +157,14 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 static const char font[]                 = "monospace 10";
 #else
 static const char *fonts[]               = { 
-  "JetBrainsMono Nerd Font:size=11.5:antialias=true:autohint=true:style=Bold",
-  "Noto Color Emoji:size=11.5:antialias=true:autohint=true:style=Bold",
-  "Noto Sans CJK JP:size=11.5:antialias=true:autohint=true:style=Bold",
-  "Noto Sans CJK KR:size=11.5:antialias=true:autohint=true:style=Bold",
-  "Noto Sans CJK SC:size=11.5:antialias=true:autohint=true:style=Bold",
+  "JetBrainsMono Nerd Font:size=13:antialias=true:autohint=true:style=Bold",
+  "Noto Color Emoji:size=13:antialias=true:autohint=true:style=Bold",
+  "Noto Sans CJK JP:size=13:antialias=true:autohint=true:style=Bold",
+  "Noto Sans CJK KR:size=13:antialias=true:autohint=true:style=Bold",
+  "Noto Sans CJK SC:size=13:antialias=true:autohint=true:style=Bold",
 };
 #endif // BAR_PANGO_PATCH
-static const char dmenufont[]            = "JetBrainsMono Nerd Font:size=11.5:antialias=true:autohint=true";
+static const char dmenufont[]            = "JetBrainsMono Nerd Font:size=13:antialias=true:autohint=true";
 
 static char c000000[]                    = "#000000"; // placeholder value
 
